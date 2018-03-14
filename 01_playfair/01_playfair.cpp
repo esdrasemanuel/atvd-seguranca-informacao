@@ -148,7 +148,6 @@ string descriptografar(string frase_criptog) {
             //mesma linha
             x = posA.first;
             y = (posA.second - 1) < 0 ? 4 : (posA.second - 1);
-            cout << "aqui X=" << x << " Y=" << y << endl;
             descriptografado.insert(descriptografado.size(), 1, tabela[x][y]);
 
             x = posB.first;
@@ -181,10 +180,19 @@ int main(int argc, char *argv[])
     string key, frase;
     cout << "[KEY]: ";
     getline(cin, key);
-    cout << "Frase: ";
-    getline(cin, frase);
-
     montar_tabela(key);
+
+    FILE *arq;
+    char ch;
+    arq = fopen("./../atividades_seguranca/01_playfair/frase.txt", "r");
+    //Ler frase a partir do arquivo
+    if(arq == NULL) {
+        printf("Erro, nao foi possivel abrir o arquivo\n");
+    } else {
+        while( (ch=fgetc(arq))!= EOF )
+            frase += ch;
+    }
+    fclose(arq);
 
     string frase_criptogr = criptografar(frase);
     cout << "Frase criptografada: " << frase_criptogr << endl;
