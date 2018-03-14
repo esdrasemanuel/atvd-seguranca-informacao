@@ -156,11 +156,11 @@ string descriptografar(string frase_criptog) {
             descriptografado.insert(descriptografado.size(), 1, tabela[x][y]);
         } else if (posA.second == posB.second) {
             // mesma coluna
-            y = (posA.first - 1) < 0 ? 4 : (posA.first - 1);
+            x = (posA.first - 1) < 0 ? 4 : (posA.first - 1);
             y = posA.second;
             descriptografado.insert(descriptografado.size(), 1, tabela[x][y]);
 
-            y = (posB.first - 1) < 0 ? 4 : (posB.first - 1);
+            x = (posB.first - 1) < 0 ? 4 : (posB.first - 1);
             y = posB.second;
             descriptografado.insert(descriptografado.size(), 1, tabela[x][y]);
         } else {
@@ -193,12 +193,12 @@ int main(int argc, char *argv[])
     cout << "Frase descriptografada: " << descriptografado << endl;
 
 
-    for (int i = 0; i < 5; i++) {
+    /*for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
             cout << tabela[i][j];
         }
         cout << endl;
-    }
+    }*/
 
     return 0;
 }
