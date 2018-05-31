@@ -4,6 +4,6 @@ Achei interessante pois mostra pra quem não conhecia como utilizar e também o 
 
 ## Prática:
 
-![IP](tor_ip.png)
+![IP](tor_ip.PNG)
 
-![Wiki](tor_wiki.png)
+![Wiki](tor_wiki.PNG)
