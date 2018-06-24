@@ -6,8 +6,6 @@
 
 ![Print 1](Capturar.PNG)
 
-![Print 1](Capturar.PNG)
-
 ![Print 2](Capturar1.PNG)
 
 ![Print 3](Capturar3.PNG)
