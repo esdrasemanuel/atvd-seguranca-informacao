@@ -4,10 +4,10 @@
 ---------------
 # Screenshots
 
-![bWAPP](capturar.PNG)
+![bWAPP](Capturar.PNG)
 
-![Password](capturar1.PNG)
+![Password](Capturar1.PNG)
 
-![List](capturar2.PNG)
+![List](Capturar2.PNG)
 
-![Command](capturar3.PNG)
+![Command](Capturar3.PNG)
