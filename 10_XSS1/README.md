@@ -1,3 +1,5 @@
+Link da prática: https://github.com/andersonFC1407/SegInfo2018.1/tree/master/XSS
+
 - Aprendi muito sobre a inserção de scripts maliciosos em sites. Já imaginava como isso poderia funcionar, mas nunca tive um contato tão próximo.
 - Tive muitas dificuldades para instalar o Beef, mas depois disso a atividade ficou boa de se fazer.
 
